@@ -23,7 +23,7 @@ import random
 
 class GameOfLife:
 
-   def __init__(self, N=100, T=200):
+   def __init__(self, N=100, T=300):
       """ Set up Conway's Game of Life. """
       # Here we create two grids to hold the old and new configurations.
       # This assumes an N*N grid of points.
@@ -40,7 +40,7 @@ class GameOfLife:
                self.old_grid[i][j] = 1
             else:
                self.old_grid[i][j] = 0
-      
+
    def live_neighbours(self, i, j):
       """ Count the number of live neighbours around point (i, j). """
       s = 0 # The total number of live neighbours.
