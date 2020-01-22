@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 #  An implementation of Conway's Game of Life in Python.
 
