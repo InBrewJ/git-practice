@@ -1,0 +1,6 @@
+/bin
+/lib
+/lib64
+/share
+png_rm.sh
+pyvenv.cfg
